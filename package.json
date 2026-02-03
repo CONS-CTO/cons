@@ -1,0 +1,27 @@
+{
+  "name": "霸天虎代币网站",
+  "private": true,
+  "version": "1.0.0",
+  "description": "霸天虎代币(CONS)官方静态网站",
+  "type": "module",
+  "author": "霸天虎社区",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0",
+    "vite-tsconfig-paths": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
