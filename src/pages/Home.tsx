@@ -117,10 +117,10 @@ const Home: React.FC = () => {
           {/* 快速操作按钮 */}
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a 
-              href="https://lvswap.app/?p=0x2428919286ea441c5ee4d74652474bcae8a2ba47&in=USDT&out=0x5164a7d758a499764219bdf1384e7c2c11545733" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-gradient-orange hover:opacity-90 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover-card"
+               href="https://lvswap.app/?p=0x2428919286ea441c5ee4d74652474bcae8a2ba47&in=USDT&out=待公布" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="bg-gradient-orange hover:opacity-90 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover-card"
             >
               <i className="fas fa-chart-line mr-2"></i> 购买并查看行情
             </a>
@@ -342,28 +342,38 @@ const Home: React.FC = () => {
                 <div className="text-sm text-gray-400">发行总量</div>
                 <div className="text-3xl font-bold text-orange-400 mt-2">100万</div>
               </div>
-              <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
-                <div className="text-sm text-gray-400">已销毁</div>
-                 <div className="text-3xl font-bold text-orange-400 mt-2">52万+</div>
-              </div>
-              <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
-                <div className="text-sm text-gray-400">流通量</div>
-                 <div className="text-3xl font-bold text-orange-400 mt-2">&lt;48万</div>
-              </div>
+               <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
+                 <div className="text-sm text-gray-400">已销毁</div>
+                 <div className="text-3xl font-bold text-orange-400 mt-2">待公布</div>
+               </div>
+               <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
+                 <div className="text-sm text-gray-400">流通量</div>
+                 <div className="text-3xl font-bold text-orange-400 mt-2">待公布</div>
+               </div>
             </div>
             
             <div className="mt-8 bg-orange-900/20 border-l-4 border-orange-500 p-5 rounded-r-xl hover-card">
-              <p className="font-bold mb-3 text-lg">
-                <i className="fas fa-exclamation-circle mr-2"></i> 交易税收机制：每笔买卖交易征收1.5%的税
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>
-                  <span className="text-orange-400 font-bold">1%</span> 永久销毁（自动执行进入黑洞地址）
-                </li>
-                <li>
-                  <span className="text-orange-400 font-bold">0.5%</span> 进入营销钱包（用于基金会成员分红、市值管理及营销代币奖励）
-                </li>
-              </ul>
+               <p className="font-bold mb-3 text-lg">
+                 <i className="fas fa-exclamation-circle mr-2"></i> 交易税收机制
+               </p>
+                <ul className="list-disc pl-6 space-y-2">
+                 <li>
+                   买税：<span className="text-orange-400 font-bold">3%</span>
+                   <ul className="list-circle pl-6 mt-2 space-y-2">
+                      <li><span className="text-orange-400 font-bold">1%</span> 永久销毁<span className="ml-2 whitespace-nowrap">（链上自动执行进入黑洞地址）</span></li>
+                     <li><span className="text-orange-400 font-bold">1%</span> 营销红包</li>
+                        <li><span className="text-orange-400 font-bold">1%</span> LP底池分红<span className="ml-2 whitespace-nowrap">（链上自动执行进入个人钱包）</span></li>
+                   </ul>
+                 </li>
+                 <li className="mt-3">
+                   卖税：<span className="text-orange-400 font-bold">4%</span>
+                   <ul className="list-circle pl-6 mt-2 space-y-2">
+                       <li><span className="text-orange-400 font-bold">1%</span> 永久销毁<span className="ml-2 whitespace-nowrap">（链上自动执行进入黑洞地址）</span></li>
+                      <li><span className="text-orange-400 font-bold">1%</span> 营销红包</li>
+                        <li><span className="text-orange-400 font-bold">2%</span> LP底池分红<span className="ml-2 whitespace-nowrap">（链上自动执行进入个人钱包）</span></li>
+                   </ul>
+                 </li>
+               </ul>
             </div>
             
             {/* 安全保障信息 */}
@@ -396,8 +406,8 @@ const Home: React.FC = () => {
               <p className="mb-3 text-gray-300">
                 代币合约地址：
               </p>
-              <p id="contractAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('0x5164a7d758a499764219bdf1384e7c2c11545733')}>
-                0x5164a7d758a499764219bdf1384e7c2c11545733
+              <p id="contractAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('待公布')}>
+                待公布
               </p>
             </div>
             
@@ -415,8 +425,8 @@ const Home: React.FC = () => {
               <p className="mb-3 text-gray-300">
                 基金会地址：
               </p>
-               <p id="foundationAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('0x63fd1fbc09b5dd2f093a69afb0d3dec81c636a7f')}>
-                 0x63fd1fbc09b5dd2f093a69afb0d3dec81c636a7f
+              <p id="foundationAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('待公布')}>
+                待公布
               </p>
             </div>
             
@@ -565,14 +575,7 @@ const Home: React.FC = () => {
 
       {/* 页脚 */}<footer className="mt-20 py-12 border-t border-gray-800 text-center text-gray-500 bg-gray-900/50">
         <div className="container mx-auto px-4">
-           <div className="mb-8">
-              <img 
-                 src="https://lf-code-agent.coze.cn/obj/x-ai-cn/293538880770/attachment/白_20260203140236.jpg" 
-                 alt="霸天虎代币图标" 
-                 className="w-24 h-24 mx-auto"
-                 style={{objectFit: 'contain', background: 'transparent'}}
-             />
-          </div>
+
           
           <p className="text-xl font-bold text-white mb-4">
             霸天虎代币(CONS) - 社区自治项目
