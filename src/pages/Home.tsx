@@ -342,14 +342,14 @@ const Home: React.FC = () => {
                 <div className="text-sm text-gray-400">发行总量</div>
                 <div className="text-3xl font-bold text-orange-400 mt-2">100万</div>
               </div>
-               <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
-                 <div className="text-sm text-gray-400">已销毁</div>
-                 <div className="text-3xl font-bold text-orange-400 mt-2">待公布</div>
-               </div>
-               <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
-                 <div className="text-sm text-gray-400">流通量</div>
-                 <div className="text-3xl font-bold text-orange-400 mt-2">待公布</div>
-               </div>
+                <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
+                  <div className="text-sm text-gray-400">已销毁</div>
+                  <div className="text-3xl font-bold text-orange-400 mt-2">38万+</div>
+                </div>
+                <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
+                  <div className="text-sm text-gray-400">流通量</div>
+                  <div className="text-3xl font-bold text-orange-400 mt-2">&lt;62万</div>
+                </div>
             </div>
             
             <div className="mt-8 bg-orange-900/20 border-l-4 border-orange-500 p-5 rounded-r-xl hover-card">
@@ -406,9 +406,9 @@ const Home: React.FC = () => {
               <p className="mb-3 text-gray-300">
                 代币合约地址：
               </p>
-              <p id="contractAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('待公布')}>
-                待公布
-              </p>
+               <p id="contractAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('0x41bfb247acc8e600174c20b0ec9df148b9d967a8')}>
+                 0x41bfb247acc8e600174c20b0ec9df148b9d967a8
+               </p>
             </div>
             
             <h3 className="text-xl text-orange-400 font-semibold mt-8 mb-4">
@@ -496,7 +496,7 @@ const Home: React.FC = () => {
               加入我们的QQ群，参与社区讨论：
             </p>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
               <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
                 <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
                 <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方一群</div>
@@ -509,6 +509,13 @@ const Home: React.FC = () => {
                  <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方二群</div>
                   <span id="qqGroup2Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('685447165')}>
                     685447165
+                 </span>
+              </div>
+              <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
+                <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
+                <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方三群</div>
+                 <span id="qqGroup3Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('693226961')}>
+                   693226961
                  </span>
               </div>
             </div>
