@@ -496,29 +496,22 @@ const Home: React.FC = () => {
               加入我们的QQ群，参与社区讨论：
             </p>
             
-             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
-              <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
-                <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
-                <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方一群</div>
-                 <span id="qqGroup1Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('310419236')}>
-                   310419236
-                 </span>
+               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+               <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
+                  <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
+                  <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方一群</div>
+                  <span id="qqGroup3Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('693226961')}>
+                    693226961
+                  </span>
                </div>
                <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
-                 <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
-                 <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方二群</div>
-                  <span id="qqGroup2Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('685447165')}>
-                    685447165
-                 </span>
-              </div>
-              <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
-                <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
-                <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方三群</div>
-                 <span id="qqGroup3Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('693226961')}>
-                   693226961
-                 </span>
-              </div>
-            </div>
+                  <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
+                   <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方二群</div>
+                   <span id="qqGroup3Display2" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('685447165')}>
+                     685447165
+                   </span>
+               </div>
+             </div>
             
             <div className="mt-8 bg-yellow-900/20 border border-yellow-500/30 p-5 rounded-xl">
                <p className="text-lg text-center text-yellow-300">
