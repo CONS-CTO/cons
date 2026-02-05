@@ -496,22 +496,22 @@ const Home: React.FC = () => {
               加入我们的QQ群，参与社区讨论：
             </p>
             
-               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
-               <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+                 <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
+                   <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
+                   <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方一群</div>
+                    <span id="qqGroup1Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('693226961')}>
+                      693226961
+                    </span>
+                  </div>
+                <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
                   <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
-                  <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方一群</div>
-                  <span id="qqGroup3Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('693226961')}>
-                    693226961
-                  </span>
-               </div>
-               <div className="bg-gray-800 p-6 rounded-xl text-center hover-card glow-effect">
-                  <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
-                   <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方二群</div>
-                   <span id="qqGroup3Display2" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('685447165')}>
+                  <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方二群</div>
+                   <span id="qqGroup2Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('685447165')}>
                      685447165
                    </span>
-               </div>
-             </div>
+                </div>
+              </div>
             
             <div className="mt-8 bg-yellow-900/20 border border-yellow-500/30 p-5 rounded-xl">
                <p className="text-lg text-center text-yellow-300">
@@ -525,8 +525,8 @@ const Home: React.FC = () => {
                <div className="space-y-4">
                  <div className="bg-gray-800/50 p-4 rounded-lg">
                    <p className="text-white font-medium mb-2">霸天虎1号腾讯会议室</p>
-                   <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('673-258-2643')}>
-                     673-258-2643
+                    <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('980967889')}>
+                      980967889
                    </p>
                  </div>
                  <div className="bg-gray-800/50 p-4 rounded-lg">
