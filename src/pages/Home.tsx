@@ -524,10 +524,10 @@ const Home: React.FC = () => {
                <h3 className="text-xl font-bold text-blue-400 mb-4">24小时腾讯会议</h3>
                <div className="space-y-4">
                  <div className="bg-gray-800/50 p-4 rounded-lg">
-                   <p className="text-white font-medium mb-2">霸天虎1号腾讯会议室</p>
-                    <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('980967889')}>
-                      980967889
-                   </p>
+                    <p className="text-white font-medium mb-2">霸天虎1号腾讯会议室</p>
+                     <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('980-967-889')}>
+                       980-967-889
+                     </p>
                  </div>
                  <div className="bg-gray-800/50 p-4 rounded-lg">
                    <p className="text-white font-medium mb-2">霸天虎2号腾讯会议室</p>
