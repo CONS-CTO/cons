@@ -381,12 +381,12 @@ const Home: React.FC = () => {
               <p className="font-bold mb-3 text-lg">
                 <i className="fas fa-shield-alt mr-2"></i> 安全保障
               </p>
-              <ul className="list-disc pl-6 space-y-2">
+               <ul className="list-disc pl-6 space-y-2">
                 <li>
-                  合约已<span className="text-green-400 font-bold">开源</span>，公开透明
+                  合约已<span className="text-green-400 font-bold">丢弃权限</span>，公开透明
                 </li>
                 <li>
-                  LP底池已打入<span className="text-green-400 font-bold">黑洞</span>，安全可靠
+                  LP底池<span className="text-green-400 font-bold">锁仓5年</span>，安全可靠
                 </li>
               </ul>
             </div>
@@ -421,12 +421,12 @@ const Home: React.FC = () => {
               </li>
             </ul>
             
-            <div className="bg-gray-800/80 p-4 rounded-xl mb-6 hover-card">
+             <div className="bg-gray-800/80 p-4 rounded-xl mb-6 hover-card">
               <p className="mb-3 text-gray-300">
                 基金会地址：
               </p>
-              <p id="foundationAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('待公布')}>
-                待公布
+              <p id="foundationAddressDisplay" className="text-orange-400 font-bold text-lg md:text-xl break-all cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('0x63fd1fbc09b5dd2f093a69afb0d3dec81c636a7f')}>
+                0x63fd1fbc09b5dd2f093a69afb0d3dec81c636a7f
               </p>
             </div>
             
