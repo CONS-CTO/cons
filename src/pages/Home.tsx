@@ -430,20 +430,66 @@ const Home: React.FC = () => {
               </p>
             </div>
             
-            <ul className="list-disc pl-6 space-y-3 mb-8">
+                <ul className="list-disc pl-6 space-y-3 mb-8">
               <li className="text-lg">
                 基金会负责：营销钱包管理、市值维护、社区发展
-              </li>
-            </ul>
+             </li>
+           </ul>
             
-            <div className="bg-gradient-to-r from-orange-900/30 to-purple-900/30 p-5 rounded-xl mt-8 hover-card">
+            {/* 社区架构与治理 */}
+            <div className="mt-6 bg-gradient-to-r from-gray-800/50 to-gray-900/50 p-5 rounded-xl">
               <h3 className="text-xl text-orange-400 font-semibold mb-4">
-                基金会招募团队长
+                社区架构与治理
               </h3>
               
-              <p className="text-lg">
-                我们正在寻找有热情、有能力的社区成员加入基金会，共同推动霸天虎生态发展。
+              <p className="mb-4 text-gray-300">
+                霸天虎构建五级金字塔社群体系，确保决策高效、共识统一：
               </p>
+              
+              <div className="overflow-x-auto">
+                <table className="min-w-full bg-gray-900 rounded-lg overflow-hidden">
+                  <thead>
+                    <tr className="bg-gray-800">
+                      <th className="py-3 px-4 text-left text-gray-300 font-semibold">层级</th>
+                      <th className="py-3 px-4 text-left text-gray-300 font-semibold">群组名称</th>
+                      <th className="py-3 px-4 text-left text-gray-300 font-semibold">核心职能</th>
+                      <th className="py-3 px-4 text-left text-gray-300 font-semibold">成员构成</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-gray-800 hover:bg-gray-800/50 transition-colors">
+                      <td className="py-3 px-4 text-orange-400 font-medium">1</td>
+                      <td className="py-3 px-4 text-gray-200">十八罗汉联创群</td>
+                      <td className="py-3 px-4 text-gray-300">战略决策与方向把控</td>
+                      <td className="py-3 px-4 text-gray-300">创始团队+顶级共识者</td>
+                    </tr>
+                    <tr className="border-b border-gray-800 hover:bg-gray-800/50 transition-colors">
+                      <td className="py-3 px-4 text-orange-400 font-medium">2</td>
+                      <td className="py-3 px-4 text-gray-200">基金会执行群</td>
+                      <td className="py-3 px-4 text-gray-300">资金管理、运营落地与风控</td>
+                      <td className="py-3 px-4 text-gray-300">核心成员+合规审计团队</td>
+                    </tr>
+                    <tr className="border-b border-gray-800 hover:bg-gray-800/50 transition-colors">
+                      <td className="py-3 px-4 text-orange-400 font-medium">3</td>
+                      <td className="py-3 px-4 text-gray-200">持币大户联盟</td>
+                      <td className="py-3 px-4 text-gray-300">稳定币价、承接抛压</td>
+                      <td className="py-3 px-4 text-gray-300">持仓1000枚用户</td>
+                    </tr>
+                    <tr className="border-b border-gray-800 hover:bg-gray-800/50 transition-colors">
+                      <td className="py-3 px-4 text-orange-400 font-medium">4</td>
+                      <td className="py-3 px-4 text-gray-200">持币者共识群</td>
+                      <td className="py-3 px-4 text-gray-300">社区基础运营与用户互动</td>
+                      <td className="py-3 px-4 text-gray-300">全体持币用户</td>
+                    </tr>
+                    <tr className="hover:bg-gray-800/50 transition-colors">
+                      <td className="py-3 px-4 text-orange-400 font-medium">5</td>
+                      <td className="py-3 px-4 text-gray-200">全域共识大群</td>
+                      <td className="py-3 px-4 text-gray-300">信息同步、文化宣导与活动组织</td>
+                      <td className="py-3 px-4 text-gray-300">所有成员</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
           
@@ -467,23 +513,33 @@ const Home: React.FC = () => {
               </ol>
             </div>
             
-            <div className="mt-8 bg-orange-900/20 border-l-4 border-orange-500 p-5 rounded-r-xl hover-card">
-              <p className="font-bold mb-3 text-lg">成员义务：</p>
-              <ul className="list-disc pl-6 space-y-3">
-                <li className="text-lg">
-                  积极参与社区布道，推广霸天虎代币
-                </li>
-                <li className="text-lg">
-                  准时参加基金会会议
-                </li>
-                <li className="text-lg">
-                  听从基金会统一指挥和安排
-                </li>
-                <li className="text-lg">
-                  为社区发展和代币价值提升贡献力量
-                </li>
-              </ul>
-            </div>
+             <div className="mt-8 bg-orange-900/20 border-l-4 border-orange-500 p-5 rounded-r-xl hover-card">
+               <p className="font-bold mb-3 text-lg">成员义务：</p>
+               <ul className="list-disc pl-6 space-y-3">
+                 <li className="text-lg">
+                   积极参与社区布道，推广霸天虎代币
+                 </li>
+                 <li className="text-lg">
+                   准时参加基金会会议
+                 </li>
+                 <li className="text-lg">
+                   听从基金会统一指挥和安排
+                 </li>
+                 <li className="text-lg">
+                   为社区发展和代币价值提升贡献力量
+                 </li>
+               </ul>
+             </div>
+             
+                 <div className="bg-gradient-to-r from-orange-900/30 to-purple-900/30 p-5 rounded-xl mt-8 hover-card">
+                     <h3 className="text-xl text-orange-400 font-semibold mb-4">
+                         基金会招募团队长
+                     </h3>
+                     
+                     <p className="text-lg mb-4">
+                         我们正在寻找有热情、有能力的社区成员加入基金会，共同推动霸天虎生态发展。
+                     </p>
+                 </div>
           </div>
           
           {/* 联系方式 */}
@@ -524,15 +580,15 @@ const Home: React.FC = () => {
                <h3 className="text-xl font-bold text-blue-400 mb-4">24小时腾讯会议</h3>
                <div className="space-y-4">
                  <div className="bg-gray-800/50 p-4 rounded-lg">
-                    <p className="text-white font-medium mb-2">霸天虎1号腾讯会议室</p>
-                     <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('980-967-889')}>
-                       980-967-889
-                     </p>
-                 </div>
-                 <div className="bg-gray-800/50 p-4 rounded-lg">
-                   <p className="text-white font-medium mb-2">霸天虎2号腾讯会议室</p>
-                   <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('728-216-6488')}>
-                     728-216-6488
+<p className="text-white font-medium mb-2">霸天虎1号腾讯会议室</p>
+<p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('728-216-6488')}>
+  728-216-6488
+</p>
+</div>
+<div className="bg-gray-800/50 p-4 rounded-lg">
+  <p className="text-white font-medium mb-2">霸天虎2号腾讯会议室</p>
+  <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('980-967-889')}>
+    980-967-889
                    </p>
                  </div>
                </div>
