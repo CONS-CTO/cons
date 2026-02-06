@@ -344,11 +344,11 @@ const Home: React.FC = () => {
               </div>
                 <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
                   <div className="text-sm text-gray-400">已销毁</div>
-                  <div className="text-3xl font-bold text-orange-400 mt-2">38万+</div>
+                  <div className="text-3xl font-bold text-orange-400 mt-2">47万+</div>
                 </div>
                 <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
                   <div className="text-sm text-gray-400">流通量</div>
-                  <div className="text-3xl font-bold text-orange-400 mt-2">&lt;62万</div>
+                  <div className="text-3xl font-bold text-orange-400 mt-2">&lt;53万</div>
                 </div>
             </div>
             
