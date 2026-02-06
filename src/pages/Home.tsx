@@ -114,16 +114,16 @@ const Home: React.FC = () => {
             完全社区自治 · 强共识驱动 · 基金会治理
           </p>
           
-          {/* 快速操作按钮 */}
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a 
-               href="https://lvswap.app/?p=0x2428919286ea441c5ee4d74652474bcae8a2ba47&in=USDT&out=待公布" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               className="bg-gradient-orange hover:opacity-90 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover-card"
-            >
-              <i className="fas fa-chart-line mr-2"></i> 购买并查看行情
-            </a>
+           {/* 快速操作按钮 */}
+           <div className="mt-10 flex flex-wrap justify-center gap-4">
+             <a 
+                href="https://lvswap.app/?p=0x2428919286ea441c5ee4d74652474bcae8a2ba47&in=USDT&out=0x41bfb247acc8e600174c20b0ec9df148b9d967a8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gradient-orange hover:opacity-90 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover-card"
+             >
+               <i className="fas fa-chart-line mr-2"></i> 购买并查看行情
+             </a>
             <a 
               href="#announcementSection" 
               className="bg-gray-800 hover:bg-gray-700 text-orange-400 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover-card"
