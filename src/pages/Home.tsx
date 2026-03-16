@@ -344,11 +344,11 @@ const Home: React.FC = () => {
               </div>
                 <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
                   <div className="text-sm text-gray-400">已销毁</div>
-                  <div className="text-3xl font-bold text-orange-400 mt-2">47万+</div>
+                   <div className="text-3xl font-bold text-orange-400 mt-2">45万+</div>
                 </div>
                 <div className="bg-gray-800 p-5 rounded-xl text-center hover-card">
                   <div className="text-sm text-gray-400">流通量</div>
-                  <div className="text-3xl font-bold text-orange-400 mt-2">&lt;53万</div>
+                   <div className="text-3xl font-bold text-orange-400 mt-2">&lt;55万</div>
                 </div>
             </div>
             
@@ -564,7 +564,7 @@ const Home: React.FC = () => {
                   <i className="fab fa-qq text-3xl text-orange-400 mb-3"></i>
                   <div className="text-lg text-gray-300 font-medium mb-2">霸天虎官方二群</div>
                    <span id="qqGroup2Display" className="text-2xl font-bold text-orange-400 cursor-pointer hover:text-orange-300 transition-colors" onClick={() => copyToClipboard('685447165')}>
-                     685447165
+                      1087605941
                    </span>
                 </div>
               </div>
@@ -582,7 +582,7 @@ const Home: React.FC = () => {
                   <div className="bg-gray-800/50 p-4 rounded-lg">
                      <p className="text-white font-medium mb-2">霸天虎1号腾讯会议室</p>
                       <p className="text-blue-300 text-lg cursor-pointer hover:underline" onClick={() => copyToClipboard('728-216-6488')}>
-                        728-216-6488
+                         860-666-7643
                       </p>
                   </div>
                   <div className="bg-gray-800/50 p-4 rounded-lg">
